@@ -1,0 +1,176 @@
+make -C /lib/modules/4.15.0-46-generic/build M=/home/adwi/ALL/sem6/ACN/getobj modules
+make[1]: Entering directory '/usr/src/linux-headers-4.15.0-46-generic'
+  CC [M]  /home/adwi/ALL/sem6/ACN/getobj/pi.o
+/home/adwi/ALL/sem6/ACN/getobj/pi.c:147:42: error: ‘TCA_PI_MAX’ undeclared here (not in a function)
+ static const struct nla_policy pi_policy[TCA_PI_MAX + 1] = {
+                                          ^
+/home/adwi/ALL/sem6/ACN/getobj/pi.c:148:3: error: ‘TCA_PI_TARGET’ undeclared here (not in a function)
+  [TCA_PI_TARGET] = {.type = NLA_U32},
+   ^
+/home/adwi/ALL/sem6/ACN/getobj/pi.c:148:3: error: array index in initializer not of integer type
+/home/adwi/ALL/sem6/ACN/getobj/pi.c:148:3: note: (near initialization for ‘pi_policy’)
+/home/adwi/ALL/sem6/ACN/getobj/pi.c:148:21: error: field name not in record or union initializer
+  [TCA_PI_TARGET] = {.type = NLA_U32},
+                     ^
+/home/adwi/ALL/sem6/ACN/getobj/pi.c:148:21: note: (near initialization for ‘pi_policy’)
+/home/adwi/ALL/sem6/ACN/getobj/pi.c:149:3: error: ‘TCA_PI_LIMIT’ undeclared here (not in a function)
+  [TCA_PI_LIMIT] = {.type = NLA_U32},
+   ^
+/home/adwi/ALL/sem6/ACN/getobj/pi.c:149:3: error: array index in initializer not of integer type
+/home/adwi/ALL/sem6/ACN/getobj/pi.c:149:3: note: (near initialization for ‘pi_policy’)
+/home/adwi/ALL/sem6/ACN/getobj/pi.c:149:20: error: field name not in record or union initializer
+  [TCA_PI_LIMIT] = {.type = NLA_U32},
+                    ^
+/home/adwi/ALL/sem6/ACN/getobj/pi.c:149:20: note: (near initialization for ‘pi_policy’)
+/home/adwi/ALL/sem6/ACN/getobj/pi.c:150:3: error: ‘TCA_PI_TUPDATE’ undeclared here (not in a function)
+  [TCA_PI_TUPDATE] = {.type = NLA_U32},
+   ^
+/home/adwi/ALL/sem6/ACN/getobj/pi.c:150:3: error: array index in initializer not of integer type
+/home/adwi/ALL/sem6/ACN/getobj/pi.c:150:3: note: (near initialization for ‘pi_policy’)
+/home/adwi/ALL/sem6/ACN/getobj/pi.c:150:22: error: field name not in record or union initializer
+  [TCA_PI_TUPDATE] = {.type = NLA_U32},
+                      ^
+/home/adwi/ALL/sem6/ACN/getobj/pi.c:150:22: note: (near initialization for ‘pi_policy’)
+/home/adwi/ALL/sem6/ACN/getobj/pi.c:151:3: error: ‘TCA_PI_ALPHA’ undeclared here (not in a function)
+  [TCA_PI_ALPHA] = {.type = NLA_U32},
+   ^
+/home/adwi/ALL/sem6/ACN/getobj/pi.c:151:3: error: array index in initializer not of integer type
+/home/adwi/ALL/sem6/ACN/getobj/pi.c:151:3: note: (near initialization for ‘pi_policy’)
+/home/adwi/ALL/sem6/ACN/getobj/pi.c:151:20: error: field name not in record or union initializer
+  [TCA_PI_ALPHA] = {.type = NLA_U32},
+                    ^
+/home/adwi/ALL/sem6/ACN/getobj/pi.c:151:20: note: (near initialization for ‘pi_policy’)
+/home/adwi/ALL/sem6/ACN/getobj/pi.c:152:3: error: ‘TCA_PI_BETA’ undeclared here (not in a function)
+  [TCA_PI_BETA] = {.type = NLA_U32},
+   ^
+/home/adwi/ALL/sem6/ACN/getobj/pi.c:152:3: error: array index in initializer not of integer type
+/home/adwi/ALL/sem6/ACN/getobj/pi.c:152:3: note: (near initialization for ‘pi_policy’)
+/home/adwi/ALL/sem6/ACN/getobj/pi.c:152:19: error: field name not in record or union initializer
+  [TCA_PI_BETA] = {.type = NLA_U32},
+                   ^
+/home/adwi/ALL/sem6/ACN/getobj/pi.c:152:19: note: (near initialization for ‘pi_policy’)
+/home/adwi/ALL/sem6/ACN/getobj/pi.c:153:3: error: ‘TCA_PI_ECN’ undeclared here (not in a function)
+  [TCA_PI_ECN] = {.type = NLA_U32},
+   ^
+/home/adwi/ALL/sem6/ACN/getobj/pi.c:153:3: error: array index in initializer not of integer type
+/home/adwi/ALL/sem6/ACN/getobj/pi.c:153:3: note: (near initialization for ‘pi_policy’)
+/home/adwi/ALL/sem6/ACN/getobj/pi.c:153:18: error: field name not in record or union initializer
+  [TCA_PI_ECN] = {.type = NLA_U32},
+                  ^
+/home/adwi/ALL/sem6/ACN/getobj/pi.c:153:18: note: (near initialization for ‘pi_policy’)
+/home/adwi/ALL/sem6/ACN/getobj/pi.c:154:3: error: ‘TCA_PI_BYTEMODE’ undeclared here (not in a function)
+  [TCA_PI_BYTEMODE] = {.type = NLA_U32},
+   ^
+/home/adwi/ALL/sem6/ACN/getobj/pi.c:154:3: error: array index in initializer not of integer type
+/home/adwi/ALL/sem6/ACN/getobj/pi.c:154:3: note: (near initialization for ‘pi_policy’)
+/home/adwi/ALL/sem6/ACN/getobj/pi.c:154:23: error: field name not in record or union initializer
+  [TCA_PI_BYTEMODE] = {.type = NLA_U32},
+                       ^
+/home/adwi/ALL/sem6/ACN/getobj/pi.c:154:23: note: (near initialization for ‘pi_policy’)
+/home/adwi/ALL/sem6/ACN/getobj/pi.c: In function ‘pi_change’:
+/home/adwi/ALL/sem6/ACN/getobj/pi.c:161:17: warning: unused variable ‘tb’ [-Wunused-variable]
+  struct nlattr *tb[TCA_PI_MAX + 1];
+                 ^
+/home/adwi/ALL/sem6/ACN/getobj/pi.c: In function ‘calculate_probability’:
+/home/adwi/ALL/sem6/ACN/getobj/pi.c:229:28: error: ‘struct pi_vars’ has no member named ‘qlen’
+  q->vars.qlen_old = q->vars.qlen;
+                            ^
+/home/adwi/ALL/sem6/ACN/getobj/pi.c:226:6: warning: unused variable ‘power’ [-Wunused-variable]
+  u32 power;
+      ^
+/home/adwi/ALL/sem6/ACN/getobj/pi.c: In function ‘pi_dump_stats’:
+/home/adwi/ALL/sem6/ACN/getobj/pi.c:335:9: error: variable ‘st’ has initializer but incomplete type
+  struct tc_pi_xstats st = { // Need to verify if all params are needed
+         ^
+/home/adwi/ALL/sem6/ACN/getobj/pi.c:336:3: error: unknown field ‘prob’ specified in initializer
+   .prob  = q->vars.prob,
+   ^
+/home/adwi/ALL/sem6/ACN/getobj/pi.c:336:12: warning: excess elements in struct initializer
+   .prob  = q->vars.prob,
+            ^
+/home/adwi/ALL/sem6/ACN/getobj/pi.c:336:12: note: (near initialization for ‘st’)
+/home/adwi/ALL/sem6/ACN/getobj/pi.c:337:3: error: unknown field ‘packets_in’ specified in initializer
+   .packets_in = q->stats.packets_in,
+   ^
+/home/adwi/ALL/sem6/ACN/getobj/pi.c:337:17: warning: excess elements in struct initializer
+   .packets_in = q->stats.packets_in,
+                 ^
+/home/adwi/ALL/sem6/ACN/getobj/pi.c:337:17: note: (near initialization for ‘st’)
+/home/adwi/ALL/sem6/ACN/getobj/pi.c:338:3: error: unknown field ‘overlimit’ specified in initializer
+   .overlimit = q->stats.overlimit,
+   ^
+/home/adwi/ALL/sem6/ACN/getobj/pi.c:338:16: warning: excess elements in struct initializer
+   .overlimit = q->stats.overlimit,
+                ^
+/home/adwi/ALL/sem6/ACN/getobj/pi.c:338:16: note: (near initialization for ‘st’)
+/home/adwi/ALL/sem6/ACN/getobj/pi.c:339:3: error: unknown field ‘maxq’ specified in initializer
+   .maxq  = q->stats.maxq,
+   ^
+/home/adwi/ALL/sem6/ACN/getobj/pi.c:339:12: warning: excess elements in struct initializer
+   .maxq  = q->stats.maxq,
+            ^
+/home/adwi/ALL/sem6/ACN/getobj/pi.c:339:12: note: (near initialization for ‘st’)
+/home/adwi/ALL/sem6/ACN/getobj/pi.c:340:3: error: unknown field ‘dropped’ specified in initializer
+   .dropped = q->stats.dropped,
+   ^
+/home/adwi/ALL/sem6/ACN/getobj/pi.c:340:14: warning: excess elements in struct initializer
+   .dropped = q->stats.dropped,
+              ^
+/home/adwi/ALL/sem6/ACN/getobj/pi.c:340:14: note: (near initialization for ‘st’)
+/home/adwi/ALL/sem6/ACN/getobj/pi.c:341:3: error: unknown field ‘ecn_mark’ specified in initializer
+   .ecn_mark = q->stats.ecn_mark,
+   ^
+/home/adwi/ALL/sem6/ACN/getobj/pi.c:341:15: warning: excess elements in struct initializer
+   .ecn_mark = q->stats.ecn_mark,
+               ^
+/home/adwi/ALL/sem6/ACN/getobj/pi.c:341:15: note: (near initialization for ‘st’)
+/home/adwi/ALL/sem6/ACN/getobj/pi.c:335:22: error: storage size of ‘st’ isn’t known
+  struct tc_pi_xstats st = { // Need to verify if all params are needed
+                      ^
+/home/adwi/ALL/sem6/ACN/getobj/pi.c:335:22: warning: unused variable ‘st’ [-Wunused-variable]
+/home/adwi/ALL/sem6/ACN/getobj/pi.c: In function ‘pi_reset’:
+/home/adwi/ALL/sem6/ACN/getobj/pi.c:360:24: warning: unused variable ‘q’ [-Wunused-variable]
+  struct pi_sched_data *q = qdisc_priv(sch);
+                        ^
+/home/adwi/ALL/sem6/ACN/getobj/pi.c: At top level:
+/home/adwi/ALL/sem6/ACN/getobj/pi.c:379:11: error: initialization from incompatible pointer type [-Werror=incompatible-pointer-types]
+  .init  = pi_init,
+           ^
+/home/adwi/ALL/sem6/ACN/getobj/pi.c:379:11: note: (near initialization for ‘pi_qdisc_ops.init’)
+/home/adwi/ALL/sem6/ACN/getobj/pi.c:382:13: error: initialization from incompatible pointer type [-Werror=incompatible-pointer-types]
+  .change  = pi_change,
+             ^
+/home/adwi/ALL/sem6/ACN/getobj/pi.c:382:13: note: (near initialization for ‘pi_qdisc_ops.change’)
+In file included from ./include/linux/module.h:18:0,
+                 from /home/adwi/ALL/sem6/ACN/getobj/pi.c:22:
+./include/linux/moduleparam.h:22:1: error: expected ‘,’ or ‘;’ before ‘static’
+ static const char __UNIQUE_ID(name)[]       \
+ ^
+./include/linux/module.h:160:32: note: in expansion of macro ‘__MODULE_INFO’
+ #define MODULE_INFO(tag, info) __MODULE_INFO(tag, tag, info)
+                                ^
+./include/linux/module.h:204:32: note: in expansion of macro ‘MODULE_INFO’
+ #define MODULE_AUTHOR(_author) MODULE_INFO(author, _author)
+                                ^
+/home/adwi/ALL/sem6/ACN/getobj/pi.c:404:1: note: in expansion of macro ‘MODULE_AUTHOR’
+ MODULE_AUTHOR("Suraj Singh");
+ ^
+/home/adwi/ALL/sem6/ACN/getobj/pi.c:147:32: warning: ‘pi_policy’ defined but not used [-Wunused-variable]
+ static const struct nla_policy pi_policy[TCA_PI_MAX + 1] = {
+                                ^
+/home/adwi/ALL/sem6/ACN/getobj/pi.c:347:24: warning: ‘pi_qdisc_dequeue’ defined but not used [-Wunused-function]
+ static struct sk_buff *pi_qdisc_dequeue(struct Qdisc *sch)
+                        ^
+/home/adwi/ALL/sem6/ACN/getobj/pi.c: In function ‘pi_dump_stats’:
+/home/adwi/ALL/sem6/ACN/getobj/pi.c:345:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+cc1: some warnings being treated as errors
+scripts/Makefile.build:339: recipe for target '/home/adwi/ALL/sem6/ACN/getobj/pi.o' failed
+make[2]: *** [/home/adwi/ALL/sem6/ACN/getobj/pi.o] Error 1
+Makefile:1551: recipe for target '_module_/home/adwi/ALL/sem6/ACN/getobj' failed
+make[1]: *** [_module_/home/adwi/ALL/sem6/ACN/getobj] Error 2
+make[1]: Leaving directory '/usr/src/linux-headers-4.15.0-46-generic'
+Makefile:4: recipe for target 'all' failed
+make: *** [all] Error 2
+adwi@adwi:~/ALL/sem6/AC
